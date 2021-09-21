@@ -36,9 +36,10 @@ body {
     margin: 10px;
 
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.3px;
     color: rgba(134, 160, 230, 0.521);
+    transition: color .3s linear;
 }
 .nav-bar li:hover {
     color: rgba(204, 209, 224, 0.644);
@@ -69,6 +70,7 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-size: 20px;  
+    font-weight: bold;
 }
 .part-1 p {
     text-align: center;
@@ -86,7 +88,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.part-2 h1 {
+.part-2 h2 {
     text-align: center;  
 
     font-family: Arial, Helvetica, sans-serif;
@@ -104,9 +106,14 @@ main {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-size: 20px;
     
     color: rgb(15, 15, 129);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact address {
+    font-style: normal;
+    font-weight: bold;
 }
 .map {
     padding-bottom: 7%;
